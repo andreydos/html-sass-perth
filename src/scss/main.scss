@@ -1,0 +1,24 @@
+* {
+	font-family: 'proxima_nova', sans-serif;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.btn {
+	margin: 10px auto;
+	background-color: transparent;
+	font-size: 15px;
+	line-height: 25px;
+	border: 2px solid white;
+	border-radius: 2px;
+	.fa {
+		margin-left: 15px;
+	}
+}
+
+@import "partials/header.scss";
+@import "partials/content.scss";
+@import "partials/footer.scss";
+

@@ -1,0 +1,21 @@
+{
+  "name": "Perth",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Andrey"
+  ],
+  "license": "ISC",
+  "private": true,
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
