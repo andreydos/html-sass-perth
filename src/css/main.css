@@ -31,10 +31,14 @@
     @media (min-width: 768px) {
       #header .logo {
         margin-bottom: 40px; } }
-    #header .logo span {
+    #header .logo a {
       color: #4eacdd;
       font-family: 'KaushanScript', cursive, sans-serif;
       font-size: 3.571em; }
+      #header .logo a:hover {
+        opacity: .5;
+        font-size: 3.5em;
+        text-decoration: none; }
 
 @-webkit-keyframes menu-move {
   from {
@@ -174,12 +178,19 @@
         background-color: #f3787a;
         border-radius: 3px 3px 0 0; } }
 
+.btn:hover,
+.btn:active {
+  opacity: .5; }
+
 #header__btn {
   float: right;
   width: 170px;
   height: 55px;
   font-size: 15px;
   color: white; }
+  @media (max-width: 768px) {
+    #header__btn {
+      float: none; } }
 
 #content-about {
   background-color: #f4f4f4; }
@@ -415,6 +426,7 @@
   width: 220px;
   height: 55px;
   margin-top: 20px;
+  margin-bottom: 10px;
   border-color: #ea4c89;
   color: #ea4c89; }
   #content-portfolio__btn .fa {

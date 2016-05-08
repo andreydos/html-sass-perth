@@ -18,10 +18,16 @@
       margin-bottom: 40px;
     }
 
-    span {
+    a {
       color: #4eacdd;
       font-family: 'KaushanScript', cursive, sans-serif;
       font-size: 3.571em;
+
+      &:hover {
+      	opacity: .5;
+      	font-size: 3.5em;
+      	text-decoration: none;
+      }
     }
   }
   @keyframes menu-move {
@@ -191,10 +197,19 @@
 
 }
 
+.btn:hover,
+.btn:active {	
+  	opacity: .5;
+}
+
 #header__btn {
   float: right;
   width: 170px;
   height: 55px;
   font-size: 15px;
   color: white;
+  @media (max-width: 768px) {
+  	float: none;  		
+  }  
 }
+

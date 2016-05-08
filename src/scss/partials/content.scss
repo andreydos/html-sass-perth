@@ -87,20 +87,6 @@
   }
   @media (min-width: 1068px) {
 
-
-
-    //<div class="macbook">
-    //<div class="cam"></div>
-    //<div class="screen"></div>
-    //</div>
-    //<div class="imac">
-    //<div class="cam"></div>
-    //<div class="screen"></div>
-    //</div>
-    //<div class="imac-rack">
-    //<div class="circle"></div>
-    //</div><!-- after element here -->
-
     .macbook {
       position: absolute;
       bottom: 0;
@@ -310,6 +296,7 @@
   width: 220px;
   height: 55px;
   margin-top: 20px;
+  margin-bottom: 10px;
   border-color: #ea4c89;
   color: #ea4c89;
 
